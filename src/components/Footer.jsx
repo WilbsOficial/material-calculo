@@ -11,7 +11,7 @@ const Footer = () => {
           <span className={styles.footer_span}>Contato</span>
           <div className={styles.personal_item}>
             <i className="bi bi-person" style={{marginRight: ".5em"}}></i>
-            <a target="_blank" href="https://lattes.cnpq.br/7056014700140445">Curriculo Lattes</a>
+            <a target="_blank" href="https://lattes.cnpq.br/7056014700140445">Currículo Lattes</a>
           </div> 
           <div className={styles.personal_item}>
             <i className="bi bi-envelope"></i>
@@ -21,8 +21,8 @@ const Footer = () => {
         <div className={styles.content_institutional}>
           <span className={styles.footer_span}>Instituições</span>
           <div className={styles.institutional_img}>
-            <img src={pngUfple} alt="" style={{marginRight: "1em", marginLeft: ".6em"}} />
-            <img src={pngFapergs} alt="" />
+            <img src={pngUfple} alt="Logo da UFPEL" style={{marginRight: "1em", marginLeft: ".6em"}} />
+            <img src={pngFapergs} alt="Logo da FAPERGS" />
           </div>
         </div>
       </div>

@@ -15,7 +15,7 @@ const Navbar = () => {
     <header className={styles.nav_box}>
       <div className={styles.box_content}>
         <div className={styles.content_title}>
-          <h1>Projeto de Iniciação Cientifica</h1>
+          <h1>Projeto de Iniciação Científica</h1>
           <span>Material Didático</span>
           <h2>Para o Ensino de Cálculo I</h2>
         </div>
@@ -38,14 +38,14 @@ const Navbar = () => {
                 <img
                   style={{width: "100%", height: "24em"}}
                   src={ufpel}
-                  alt="Ícone da categoria celulares e tablets"
+                  alt="Prédio da UFPEL Universidade Federal de Pelotas"
                 />
               </SwiperSlide>
               <SwiperSlide>
                 <img
                   style={{width: "100%", height: "24em"}}
                   src={fapergs}
-                  alt="Ícone da categoria celulares e tablets"
+                  alt="Logo da FAPERGS Fundação de Amparo à pesquisa do Estado do RS"
                 />
               </SwiperSlide>
           </Swiper>
@@ -100,22 +100,6 @@ const Navbar = () => {
           icon={<i className='bx bx-user bx-sm' style={{marginRight: '.5em'}}></i>} 
           aling={true} 
           option={'a'} 
-          handleFunction={''}  
-        //   setSituation={setChoice} 
-        />
-        <Accordion 
-          lettering={'Imagem e domínimo'} 
-          icon={<i className='bx bx-user bx-sm' style={{marginRight: '.5em'}}></i>} 
-          aling={true} 
-          option={'b'} 
-          handleFunction={''}  
-        //   setSituation={setChoice} 
-        />
-        <Accordion 
-          lettering={'Achar valor'} 
-          icon={<i className='bx bx-user bx-sm' style={{marginRight: '.5em'}}></i>} 
-          aling={true} 
-          option={'c'} 
           handleFunction={''}  
         //   setSituation={setChoice} 
         />
