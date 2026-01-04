@@ -1,0 +1,110 @@
+.nav_box {
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+
+.box_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* background-color: yellow; */
+    margin-bottom: 1.5em;
+}
+
+.content_title {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 1em;
+    margin-bottom: 1em;
+}
+
+.content_promotion {
+    width: 100%;
+    height: 27em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-top-left-radius: 20px;
+}
+
+.promotion_top {
+    width: 100%;
+    height: 3em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(74, 74, 74);
+    border-bottom: none;
+    border-top-left-radius: 20px;
+}
+
+.top_title {
+    font-size: 26px;
+    font-weight: 200;
+    color: #fff;
+}
+
+.box_information {
+    width: 100%;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 5px 0 5px;
+    margin-bottom: 3em;
+}
+
+.information_box {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    background-color: #f2f2f2;
+    margin-bottom: 1.4em;
+}
+
+.box_icon {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 .5em .5em 0;
+}
+
+.box_icon i {
+    margin: .2em .6em 0 0;
+    font-size: 36px;
+    color: #c1c100;
+}
+
+@media(min-width: 992px) {
+    .box_content {
+        flex-direction: row;
+    }
+
+    .content_title {
+        width: 50%;
+        height: 20em;
+        padding-top: 4em;
+        margin-bottom: 0;
+    }
+
+    .content_promotion {
+        width: 48%;
+    }
+
+    .box_information {
+        height: 22em;
+        flex-direction: row;
+    }
+
+    .information_box {
+        width: 32%;
+        height: 100%;
+        margin-bottom: 0;
+    }
+}
+

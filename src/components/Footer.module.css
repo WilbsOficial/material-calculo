@@ -1,0 +1,82 @@
+.box_content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 1.5em;
+}
+
+.content_personal {
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 2em;
+}
+
+.personal_item {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1em;
+    margin: .4em 0 0 0;
+}
+
+.personal_item i {
+    font-size: 16px;
+    color: #c1c100;
+}
+ 
+.footer_span {
+    font-size: 26px;
+    font-weight: 500;
+    color: rgb(148, 147, 145);
+}
+
+.content_institutional {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.institutional_img {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: .5em;
+}
+
+.institutional_img img {
+    width: 8em;
+}
+
+.box_bottom {
+    width: 100%;
+    height: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #e7e7e7;
+}
+
+.box_bottom span {
+    font-size: 14px;
+    font-weight: unset;
+    color: rgb(187, 185, 182);
+}
+
+@media(min-width: 600px) {
+    .box_content {
+        flex-direction: row;
+    }
+}
+
+@media(min-width: 992px) {
+    .box_content {
+        flex-direction: row;
+    }
+
+    .content_institutional {
+        width: 25%;
+    }
+}
